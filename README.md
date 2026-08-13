@@ -1,5 +1,7 @@
 # AnOxFuse
 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Offpass/AnOxFuse/blob/main/AnOxFuse_model.ipynb)
+
 AnOxFuse predicts whether a peptide has antioxidant activity by combining local molecular features with a peptide language model. The complete training and inference workflow is in [`AnOxFuse_model.ipynb`](AnOxFuse_model.ipynb).
 
 ![AnOxFuse architecture](AnOxFuse.png)
