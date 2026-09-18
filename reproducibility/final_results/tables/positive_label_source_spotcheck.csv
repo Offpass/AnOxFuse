@@ -1,0 +1,8 @@
+split,fasta_header,sequence,peptide_name,evidence_summary,original_source_doi,source_link,qualification
+released_test,1_pos_390,GFFKWHPRCGEEHSMWT,OM-GF17,"Original study reports ABTS, DPPH and nitric-oxide scavenging and ferric-reducing activity",10.1080/14786419.2018.1499635,https://pubmed.ncbi.nlm.nih.gov/30470149/,Exact full-sequence match
+released_test,1_pos_1459,AWEEREQGSR,Amaranth 11S-globulin peptide,"Synthesized peptide tested directly by ORAC",10.1016/j.foodchem.2015.11.092,https://pubmed.ncbi.nlm.nih.gov/26675853/,Exact full-sequence match
+released_test,1_pos_357,IYIEQGNGITGM,Amaranth 11S-globulin peptide,"Synthesized peptide tested directly by ORAC",10.1016/j.foodchem.2015.11.092,https://pubmed.ncbi.nlm.nih.gov/26675853/,Exact full-sequence match
+released_test,1_pos_1201,WYSLAMA,Beta-lactoglobulin f(19-25),"Peptide tested directly for radical-scavenging activity",10.1021/jf063427j,https://pubmed.ncbi.nlm.nih.gov/17411066/,Exact full-sequence match
+released_test,1_pos_1425,WYSL,Beta-lactoglobulin f(19-22),"Peptide tested directly for radical-scavenging activity",10.1021/jf063427j,https://pubmed.ncbi.nlm.nih.gov/17411066/,Exact full-sequence match
+development,pos_970,AMRLTYNKPCLYGT,Antioxidin-RP1,"Peptide identified and functionally characterized as antioxidant",10.1074/mcp.M800297-MCP200,https://pmc.ncbi.nlm.nih.gov/articles/PMC2649818/,Exact full-sequence match
+development,pos_638,CVHWMTNTARTACIAP,Pleurain-R1,"Peptide reported with antimicrobial and antioxidant activity",10.1074/mcp.M800297-MCP200,https://pmc.ncbi.nlm.nih.gov/articles/PMC2649818/,Exact full-sequence match

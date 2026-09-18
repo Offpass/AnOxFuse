@@ -1,0 +1,4 @@
+model,max_absolute_probability_difference
+Molecular ECFP4 branch,2.7755575615628914e-16
+Contextual peptide-adapted ESM-2 branch,0.00015542196568985034
+Frozen-coefficient logistic fusion,4.854105142859666e-05

@@ -1,0 +1,7 @@
+Configuration,AUC,Change
+AnOxFuse (full),0.9829,0.0
+Local branch removed,0.9792,-0.0037000000000000366
+Contextual encoder replaced,0.9784,-0.0044999999999999485
+Peptide adaptation removed,0.975,-0.007900000000000018
+Contextual branch removed,0.9702,-0.012700000000000045
+Residue order removed,0.9382,-0.04469999999999996

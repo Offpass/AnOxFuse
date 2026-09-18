@@ -1,0 +1,5 @@
+dataset,protocol,original_training_n,removed_training_n,retained_training_n,training_positive,training_negative,test_n,test_positive,test_negative
+AOPP,exact_overlap_only,2077,399,1678,838,840,606,414,192
+AOPP,identity60_coverage80,2077,732,1345,661,684,606,414,192
+AnOxPP,exact_overlap_only,2077,283,1794,884,910,424,212,212
+AnOxPP,identity60_coverage80,2077,590,1487,699,788,424,212,212

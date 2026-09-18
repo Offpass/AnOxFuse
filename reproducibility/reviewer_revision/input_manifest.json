@@ -1,0 +1,123 @@
+{
+  "published_repository": "https://github.com/Offpass/AnOxFuse",
+  "published_commit": "a1745cebe277426d73efffb7213d9460d4997e09",
+  "source_archive": "anoxfuse_applicable_figure_run.zip",
+  "files": {
+    "baseline/anoxfuse_main_run.npz": {
+      "bytes": 14418416,
+      "sha256": "c3587c7cfc2500bd73394f872eb6646945d66c0f0796881402acf2073aff1b83"
+    },
+    "baseline/environment_manifest.json": {
+      "bytes": 622,
+      "sha256": "28158731989329ced069c8e9683fded9756e0b655bd77b7262fa77563bc01cc3"
+    },
+    "baseline/tables/anoxfuse_fusion_coefficients.csv": {
+      "bytes": 366,
+      "sha256": "564841a948da2c750b9d3001ef7acc935afdb1d061864848aa97141450aa8053"
+    },
+    "baseline/tables/anoxfuse_grouped_fold_metrics.csv": {
+      "bytes": 917,
+      "sha256": "fd9a91000055c223ab77abaa38e05a457f911d7bffb74a039b735bd9aa4846a1"
+    },
+    "baseline/tables/anoxfuse_main_summary.csv": {
+      "bytes": 470,
+      "sha256": "e476d6f6dcb9be78aa9e545db08455614d0014d93cd8f66348f8e780079682c8"
+    },
+    "baseline/tables/anoxfuse_oof_predictions.csv": {
+      "bytes": 193370,
+      "sha256": "2d8ca150f1728a3233377a2d38c83a51b9659d6b7fdc192eb4ebd29c4004b891"
+    },
+    "baseline/tables/anoxfuse_test_predictions.csv": {
+      "bytes": 20211,
+      "sha256": "529a50dda4479061610bf78de000393b023631bbeada593325e8ca9c8000d2c3"
+    },
+    "baseline/tables/bootstrap_uncertainty.csv": {
+      "bytes": 953,
+      "sha256": "cfcb1494e9f529da632f1a9f74929d74ff75c73b17acec0a92bbd42da9a41f78"
+    },
+    "baseline/tables/calibration_bins.csv": {
+      "bytes": 1248,
+      "sha256": "3dd8ae317cad3f5c017884efe6792eb504263a4a94c2c5af8a3ea6be5af69a73"
+    },
+    "baseline/tables/controlled_ablation.csv": {
+      "bytes": 321,
+      "sha256": "19af3ed77728008de132510c869be19bdee7d32b4ee1408730468d1a04671f7b"
+    },
+    "baseline/tables/dataset_summary.csv": {
+      "bytes": 136,
+      "sha256": "cba97bfa4250ed24463a396ded3829648ee047a0f0a2b7eb17f638ea98b67987"
+    },
+    "baseline/tables/grouped_fold_audit.csv": {
+      "bytes": 267,
+      "sha256": "57ef18d8e4b14294591d1f809efe54bc19454c9fbd75c7359fd27837de5c7d5f"
+    },
+    "baseline/tables/length_context.csv": {
+      "bytes": 831,
+      "sha256": "c6601a189e1f7a72a69a229c074e435d681cdc627b5189fea55ea9669f08b32e"
+    },
+    "cache/dev_ecfp4_count.npz": {
+      "bytes": 516740,
+      "sha256": "0ae3872846538d6291bd5c84b5eb8659f6c92791e4c3b37086388dd961d534f8"
+    },
+    "cache/dev_esm2_meanmax.npz": {
+      "bytes": 12929386,
+      "sha256": "796c7acc1bc620ae95c0f07f4ce7ef7e28f5ba8ba2e5a8737d7e35bb384de6c8"
+    },
+    "cache/groups_published_rapidfuzz60.npy": {
+      "bytes": 22008,
+      "sha256": "152b0fe586da5e7e221ab0f392cba5158cd6ff28948bc73d5f7c3f34c4d30bb0"
+    },
+    "cache/test_ecfp4_count.npz": {
+      "bytes": 58933,
+      "sha256": "ce48e222e82029e1e4a0ee97bf899f171a3d156aadffcb4fca75d6a5d0933cef"
+    },
+    "cache/test_esm2_meanmax.npz": {
+      "bytes": 1428078,
+      "sha256": "d92dd8e800f3a78e9da1b5a09ea91994468a497bf9bdb7fc533d8e9038ed8325"
+    },
+    "data/independent_test_cleaned.fasta": {
+      "bytes": 7398,
+      "sha256": "74e420085146b55db7ce6aa61e281ffdc851775edb9047a820aa9196a2323afd"
+    },
+    "data/remaining_negative.fasta": {
+      "bytes": 35454,
+      "sha256": "731780c7f85ba1d060834fd09891d8b18bf50564e42bf053403978749ea4d1ab"
+    },
+    "data/remaining_positive.fasta": {
+      "bytes": 25178,
+      "sha256": "432e2f4d0324200a5ce4e3e2b85cf27cc249e79ee9ca29600fce4f73f85505d3"
+    },
+    "external_source/Antiox_dataset.xls": {
+      "bytes": 269312,
+      "sha256": "04ea773ed0bdfc76f005173e12f3241d1245e3d44d1966a64fd049d28fb2e833"
+    },
+    "external_source/AODB_PROTEIN.csv": {
+      "bytes": 266488,
+      "sha256": "c07ea91c31288da85478033cca875e77ffae45a828bf99efb76d12004ffb985d"
+    },
+    "external_source/original_external_protocol.py": {
+      "bytes": 15592,
+      "sha256": "13425e412fefebddc4ad4494c835e2a514e3d1302226c2b8a8080ee3d70ac6ee"
+    },
+    "external_source/test_AnOxPs.txt": {
+      "bytes": 3990,
+      "sha256": "cde3e2c7354fd09f7bfb59348c02d6b7f6b76759b454557bffb019ee68e08667"
+    },
+    "external_source/test_non-AnOxPs.txt": {
+      "bytes": 4912,
+      "sha256": "068f08e3762c10d590385ed425c089cbf35db38cdf5abfa55190800e153bfe93"
+    },
+    "external_source/Total-test.fasta": {
+      "bytes": 20118,
+      "sha256": "34de48789f3ed19e094d7fcf64bec5730b6cecd111293bdc221e0133fd668a1b"
+    },
+    "published_baseline/AnOxFuse_model.ipynb": {
+      "bytes": 38305,
+      "sha256": "c3bb091d4c2110590f088b4d26e6950e2c684eb00baace0cf055ca566020c080"
+    },
+    "published_baseline/README.md": {
+      "bytes": 2342,
+      "sha256": "f4858119e6b332cc7cbe85926be007653339f0783e8e307ce84063a34f3ec7ac"
+    }
+  }
+}

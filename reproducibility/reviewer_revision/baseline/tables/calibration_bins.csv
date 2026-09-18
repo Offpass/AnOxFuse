@@ -1,0 +1,20 @@
+evaluation,mean_probability,observed_rate
+Similarity-grouped development OOF,0.004781655063954269,0.0
+Similarity-grouped development OOF,0.006816836096514825,0.0
+Similarity-grouped development OOF,0.011246036775922758,0.010948905109489052
+Similarity-grouped development OOF,0.04016302328890705,0.05860805860805861
+Similarity-grouped development OOF,0.23834697879274175,0.2518248175182482
+Similarity-grouped development OOF,0.7127801716117297,0.6996336996336996
+Similarity-grouped development OOF,0.9525503915645589,0.9487179487179487
+Similarity-grouped development OOF,0.9926705883071872,1.0
+Similarity-grouped development OOF,0.9960072022436182,1.0
+Similarity-grouped development OOF,0.9976149949876241,1.0
+Released independent test,0.00496540600395523,0.0
+Released independent test,0.006313050635699438,0.0
+Released independent test,0.011357339403393198,0.03333333333333333
+Released independent test,0.04500765284552893,0.03333333333333333
+Released independent test,0.2617902869318628,0.23333333333333334
+Released independent test,0.8266053634434951,0.7333333333333333
+Released independent test,0.9648421055855573,0.9666666666666667
+Released independent test,0.9938640604710679,0.9666666666666667
+Released independent test,0.9974570837473105,1.0

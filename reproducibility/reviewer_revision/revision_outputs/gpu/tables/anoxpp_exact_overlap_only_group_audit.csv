@@ -1,0 +1,6 @@
+dataset,protocol,fold,train_n,valid_n,valid_positive,valid_negative,valid_groups
+AnOxPP,exact_overlap_only,1,1436,358,176,182,264
+AnOxPP,exact_overlap_only,2,1436,358,177,181,270
+AnOxPP,exact_overlap_only,3,1436,358,176,182,263
+AnOxPP,exact_overlap_only,4,1435,359,177,182,241
+AnOxPP,exact_overlap_only,5,1433,361,178,183,275

@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "provenance": "Release refit from frozen published ECFP4 and peptide-adapted ESM-2 features. These are not byte-identical copies of the historical in-memory estimators.",
+  "seed": 70877,
+  "decision_threshold": 0.5,
+  "encoder": {
+    "model_id": "jiahuizhang/esm-150m-peptide-fine-tune",
+    "revision": "6d8cebf"
+  },
+  "features": {
+    "molecular": "RDKit Morgan count fingerprint, radius 2, 2,048 dimensions",
+    "context": "last-layer residue embeddings, special tokens excluded, mean and maximum pooled, 1,280 dimensions",
+    "fusion": "logistic regression over clipped molecular and context logits"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.4.6",
+    "scipy": "1.18.0",
+    "scikit_learn": "1.9.0",
+    "lightgbm": "4.7.0",
+    "joblib": "1.5.3"
+  },
+  "source_files": {
+    "baseline/anoxfuse_main_run.npz": {
+      "bytes": 14418416,
+      "sha256": "c3587c7cfc2500bd73394f872eb6646945d66c0f0796881402acf2073aff1b83"
+    },
+    "cache/dev_ecfp4_count.npz": {
+      "bytes": 516740,
+      "sha256": "0ae3872846538d6291bd5c84b5eb8659f6c92791e4c3b37086388dd961d534f8"
+    },
+    "cache/test_ecfp4_count.npz": {
+      "bytes": 58933,
+      "sha256": "ce48e222e82029e1e4a0ee97bf899f171a3d156aadffcb4fca75d6a5d0933cef"
+    },
+    "cache/dev_esm2_meanmax.npz": {
+      "bytes": 12929386,
+      "sha256": "796c7acc1bc620ae95c0f07f4ce7ef7e28f5ba8ba2e5a8737d7e35bb384de6c8"
+    },
+    "cache/test_esm2_meanmax.npz": {
+      "bytes": 1428078,
+      "sha256": "d92dd8e800f3a78e9da1b5a09ea91994468a497bf9bdb7fc533d8e9038ed8325"
+    },
+    "baseline/tables/anoxfuse_test_predictions.csv": {
+      "bytes": 20211,
+      "sha256": "529a50dda4479061610bf78de000393b023631bbeada593325e8ca9c8000d2c3"
+    }
+  },
+  "artifacts": {
+    "local_model": {
+      "path": "anoxfuse_local_model.joblib",
+      "bytes": 1830068,
+      "sha256": "898adac8bb67709e3736b5e6b8c6b2f07e4bfa4311b9eed0c1dbdc3e3000272d"
+    },
+    "context_model": {
+      "path": "anoxfuse_context_model.joblib",
+      "bytes": 42317,
+      "sha256": "b6c0d57f7ecd7d2f60303bff218746ef074730d554b5ac6affb25d2b5f532588"
+    },
+    "meta_model": {
+      "path": "anoxfuse_meta_model.joblib",
+      "bytes": 879,
+      "sha256": "dcfa97fb8dc5e5046e961acda6ddd097c28dc8ee02076141ee98eac0197fc84e"
+    }
+  },
+  "validation": {
+    "released_test_rows": 302,
+    "maximum_absolute_probability_delta": 3.8238056640049756e-05,
+    "allowed_probability_delta": 0.0005,
+    "class_decisions_identical": true,
+    "release_refit_metrics": {
+      "roc_auc": 0.9828508771929825,
+      "auprc": 0.9837982793861633,
+      "mcc": 0.8808771929824561
+    },
+    "frozen_published_metrics": {
+      "roc_auc": 0.9828508771929825,
+      "auprc": 0.9837982793861633,
+      "mcc": 0.8808771929824561
+    }
+  }
+}

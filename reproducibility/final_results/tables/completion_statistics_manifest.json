@@ -1,0 +1,16 @@
+{
+  "seed": 70877,
+  "bootstrap_reps": 2500,
+  "outputs": [
+    "fusion_all_comparator_paired_ci.csv",
+    "strict_cluster_disjoint_bootstrap_ci.csv",
+    "shuffle_simple_order_baselines.csv",
+    "shuffle_simple_order_baseline_paired_ci.csv",
+    "checkpoint_provenance.csv"
+  ],
+  "notes": [
+    "All bootstraps resample peptide units within class.",
+    "Shuffled probabilities are averaged within each original peptide before resampling.",
+    "Fusion comparisons use the mean released-test probability across the five repeated grouped fits."
+  ]
+}

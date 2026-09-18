@@ -1,0 +1,8 @@
+first,second,metric,delta_first_minus_second,ci_low,ci_high,bootstrap_reps,dataset,protocol
+Cross-fitted logistic fusion,Contextual peptide-adapted ESM-2 branch,AUC,0.07509344962620146,0.0527100391598434,0.09909275987896046,2500,AnOxPP,identity60_coverage80
+Cross-fitted logistic fusion,Contextual peptide-adapted ESM-2 branch,AUPRC,0.0715006917315103,0.04872844227600865,0.0960044655092088,2500,AnOxPP,identity60_coverage80
+Cross-fitted logistic fusion,Contextual peptide-adapted ESM-2 branch,ACC,0.10613207547169812,0.07311320754716977,0.14150943396226412,2500,AnOxPP,identity60_coverage80
+Cross-fitted logistic fusion,Contextual peptide-adapted ESM-2 branch,F1,0.10094360324775065,0.06981817366906823,0.13367976006059487,2500,AnOxPP,identity60_coverage80
+Cross-fitted logistic fusion,Contextual peptide-adapted ESM-2 branch,MCC,0.21113305020050832,0.1451603095705001,0.27937604962463514,2500,AnOxPP,identity60_coverage80
+Cross-fitted logistic fusion,Contextual peptide-adapted ESM-2 branch,Brier,-0.081684179909849,-0.1060318170681879,-0.0571261136595323,2500,AnOxPP,identity60_coverage80
+Cross-fitted logistic fusion,Contextual peptide-adapted ESM-2 branch,LogLoss,-0.5244386787116825,-0.7092277023773037,-0.3537277244884386,2500,AnOxPP,identity60_coverage80

@@ -1,0 +1,28 @@
+model,metric,estimate,ci_low,ci_high,resamples,resampling
+AnOxFuse,AUC,0.9828508771929825,0.9703070175438596,0.9930493421052632,2500,class-stratified bootstrap
+AnOxFuse,AUPRC,0.9837982793861633,0.971850492157737,0.9933231699594252,2500,class-stratified bootstrap
+AnOxFuse,ACC,0.9403973509933775,0.9139072847682119,0.9668874172185431,2500,class-stratified bootstrap
+AnOxFuse,F1,0.9403973509933775,0.9133333333333333,0.9664429530201343,2500,class-stratified bootstrap
+AnOxFuse,Precision,0.9342105263157895,0.8980891719745223,0.972027972027972,2500,class-stratified bootstrap
+AnOxFuse,Recall,0.9466666666666667,0.9066666666666666,0.98,2500,class-stratified bootstrap
+AnOxFuse,MCC,0.8808771929824561,0.8278947368421052,0.9337719298245614,2500,class-stratified bootstrap
+AnOxFuse,Brier,0.04914230916632188,0.03137245453959685,0.06832364162365637,2500,class-stratified bootstrap
+AnOxFuse,LogLoss,0.16980167054760278,0.1118799320704252,0.23380051210484123,2500,class-stratified bootstrap
+Molecular ECFP4 branch,AUC,0.9702192982456139,0.9517061403508772,0.985219298245614,2500,class-stratified bootstrap
+Molecular ECFP4 branch,AUPRC,0.9737496894481643,0.9587809337275349,0.9865441639035316,2500,class-stratified bootstrap
+Molecular ECFP4 branch,ACC,0.9105960264900662,0.8774834437086093,0.9403973509933775,2500,class-stratified bootstrap
+Molecular ECFP4 branch,F1,0.907849829351536,0.8716216216216215,0.9402086092715232,2500,class-stratified bootstrap
+Molecular ECFP4 branch,Precision,0.9300699300699301,0.8918918918918919,0.9704847494553377,2500,class-stratified bootstrap
+Molecular ECFP4 branch,Recall,0.8866666666666667,0.8333333333333334,0.9333333333333333,2500,class-stratified bootstrap
+Molecular ECFP4 branch,MCC,0.8220136553424212,0.7568508752559002,0.8840529214997477,2500,class-stratified bootstrap
+Molecular ECFP4 branch,Brier,0.07505326173087254,0.0490047702305514,0.10272518216659278,2500,class-stratified bootstrap
+Molecular ECFP4 branch,LogLoss,0.4647399099776098,0.2704089373485248,0.6939157897464215,2500,class-stratified bootstrap
+Contextual peptide-adapted ESM-2 branch,AUC,0.9792105263157895,0.9650877192982457,0.9908771929824562,2500,class-stratified bootstrap
+Contextual peptide-adapted ESM-2 branch,AUPRC,0.9788028941206133,0.9626644405292968,0.9914018549832121,2500,class-stratified bootstrap
+Contextual peptide-adapted ESM-2 branch,ACC,0.9370860927152318,0.9105960264900662,0.9635761589403974,2500,class-stratified bootstrap
+Contextual peptide-adapted ESM-2 branch,F1,0.9377049180327869,0.9105502888460969,0.9636963696369638,2500,class-stratified bootstrap
+Contextual peptide-adapted ESM-2 branch,Precision,0.9225806451612903,0.8830578277664167,0.96,2500,class-stratified bootstrap
+Contextual peptide-adapted ESM-2 branch,Recall,0.9533333333333334,0.92,0.98,2500,class-stratified bootstrap
+Contextual peptide-adapted ESM-2 branch,MCC,0.8746737338734739,0.8212636350338075,0.9273417130846329,2500,class-stratified bootstrap
+Contextual peptide-adapted ESM-2 branch,Brier,0.0579634883220467,0.03465344806911631,0.08184127978629889,2500,class-stratified bootstrap
+Contextual peptide-adapted ESM-2 branch,LogLoss,0.31900944461666525,0.17393180332449593,0.4882149421329073,2500,class-stratified bootstrap

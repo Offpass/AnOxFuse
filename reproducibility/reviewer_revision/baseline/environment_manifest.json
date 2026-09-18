@@ -1,0 +1,23 @@
+{
+  "python": "3.12.13 | packaged by conda-forge | (main, Mar  5 2026, 16:50:00) [GCC 14.3.0]",
+  "torch": "2.12.0+cu130",
+  "transformers": "5.14.1",
+  "cuda_ready": true,
+  "cuda_version": "13.0",
+  "gpu": "NVIDIA GeForce RTX 5080",
+  "free_disk_gib_at_start": 49.17,
+  "model_id": "jiahuizhang/esm-150m-peptide-fine-tune",
+  "model_revision": "6d8cebf",
+  "config": {
+    "seed": 70877,
+    "run_gpu": true,
+    "force_retrain": false,
+    "n_splits": 5,
+    "similarity_cutoff": 60.0,
+    "lgbm_trees": 500,
+    "bootstrap_reps": 2500,
+    "esm2_batch_size": 256,
+    "figure_dpi": 300,
+    "tsne_max_iter": 1500
+  }
+}

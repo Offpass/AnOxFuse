@@ -1,0 +1,8 @@
+first,second,metric,delta_first_minus_second,ci_low,ci_high,bootstrap_reps,dataset,protocol
+Cross-fitted logistic fusion,AAC plus DPC plus length RF,AUC,-0.024437650966183444,-0.045794019223027414,-0.0035874911936392296,2500,AOPP,exact_overlap_only
+Cross-fitted logistic fusion,AAC plus DPC plus length RF,AUPRC,-0.010136145095504867,-0.019104679256933873,-0.001122211031849691,2500,AOPP,exact_overlap_only
+Cross-fitted logistic fusion,AAC plus DPC plus length RF,ACC,-0.00990099009900991,-0.0363036303630363,0.014851485148514865,2500,AOPP,exact_overlap_only
+Cross-fitted logistic fusion,AAC plus DPC plus length RF,F1,-0.002431164013759868,-0.025804224282678992,0.02196127376909536,2500,AOPP,exact_overlap_only
+Cross-fitted logistic fusion,AAC plus DPC plus length RF,MCC,-0.047413665049686304,-0.10583966220138007,0.007713445402927951,2500,AOPP,exact_overlap_only
+Cross-fitted logistic fusion,AAC plus DPC plus length RF,Brier,0.021181329457702763,0.00935488149742361,0.03281997942056477,2500,AOPP,exact_overlap_only
+Cross-fitted logistic fusion,AAC plus DPC plus length RF,LogLoss,0.1368351663164693,0.08886153133974431,0.18279172307137032,2500,AOPP,exact_overlap_only

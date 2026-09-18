@@ -1,0 +1,4 @@
+role,model_id,revision,parent_model,stated_adaptation_objective,stated_adaptation_data,sequence_corpus_available,benchmark_overlap_auditable,required_interpretation
+final contextual encoder,jiahuizhang/esm-150m-peptide-fine-tune,6d8cebf,facebook/esm2_t30_150M_UR50D,fill-mask peptide adaptation for PepBenchmark,approximately two million peptide sequences,False,False,upstream exposure to benchmark or related peptides cannot be excluded
+standard ESM-2 sensitivity comparator,facebook/esm2_t30_150M_UR50D,a695f60,not applicable,standard protein masked-language modeling,UniRef50-based ESM-2 pretraining,True,False,comparator provenance is recorded; no new sensitivity result is claimed here
+archived large-encoder comparator,Synthyra/ESMplusplus_large,not recorded in the archived run,ESM++ large,protein language modeling,refer to the model card,False,False,correct every ESM-C label to ESM++ and do not claim an exact revision for this archived run

@@ -1,0 +1,11 @@
+{
+  "identity_sensitivity_summary_rows": 33,
+  "matched_development_training_n_per_seed": 912,
+  "matched_training_metric_rows": 60,
+  "overlap_weighted_metric_rows": 6,
+  "published_test_auc": 0.9828508771929825,
+  "published_test_mcc": 0.8808771929824561,
+  "repeated_comparison_rows": 70,
+  "runtime_seconds": 381.3713946342468,
+  "whole_pool_clusters": 1737
+}

@@ -1,0 +1,6 @@
+dataset,protocol,fold,train_n,valid_n,valid_positive,valid_negative,valid_groups
+AOPP,identity60_coverage80,1,1076,269,132,137,220
+AOPP,identity60_coverage80,2,1076,269,132,137,222
+AOPP,identity60_coverage80,3,1077,268,132,136,228
+AOPP,identity60_coverage80,4,1074,271,133,138,227
+AOPP,identity60_coverage80,5,1077,268,132,136,224

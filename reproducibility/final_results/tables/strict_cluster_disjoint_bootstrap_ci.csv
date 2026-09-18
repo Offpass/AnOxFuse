@@ -1,0 +1,50 @@
+evaluation,model,metric,estimate,ci_low,ci_high,bootstrap_reps,bootstrap_unit,bootstrap
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Molecular branch,AUC,0.9536138318431471,0.9469888023516839,0.960224364979408,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Molecular branch,AUPRC,0.9600196173073977,0.9544304453247935,0.9656363658011373,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Molecular branch,ACC,0.889693776753375,0.878827790582812,0.9005597629239381,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Molecular branch,F1,0.8885932823412038,0.8774856418363967,0.8996548011168343,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Molecular branch,MCC,0.7793893722516743,0.757653077688876,0.801173705509313,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Molecular branch,Brier,0.097433224630833,0.0877209240023372,0.10696799003528652,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Molecular branch,LogLoss,0.6232646314893167,0.5491655441970507,0.694683772323386,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Contextual branch,AUC,0.9789973076028993,0.9750466875882575,0.982552622745204,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Contextual branch,AUPRC,0.9788650538699737,0.974907075038035,0.9825416294166609,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Contextual branch,ACC,0.9206453737240698,0.9110964767863022,0.9300378663154429,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Contextual branch,F1,0.9203832177073009,0.9108540255994294,0.9298422171832789,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Contextual branch,MCC,0.8413051974520853,0.822461104043074,0.8601881486545093,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Contextual branch,Brier,0.06681570961585256,0.05917771120700351,0.07477365385558267,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Contextual branch,LogLoss,0.31187808096457126,0.2684114156642507,0.35803681469350457,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Equal probability mean,AUC,0.9756036208577504,0.9711691348419084,0.9797768472064645,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Equal probability mean,AUPRC,0.9775273923235808,0.9735270975136701,0.9814187789586498,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Equal probability mean,ACC,0.9239380968060587,0.914389199868291,0.9334869937438262,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Equal probability mean,F1,0.9220910623946037,0.9119258422488788,0.9319223399137937,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Equal probability mean,MCC,0.8483541725359032,0.8291856934956829,0.8671928747466706,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Equal probability mean,Brier,0.06246716991986651,0.05605953377077954,0.06908855109688097,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Equal probability mean,LogLoss,0.2545052410235503,0.21992607457707475,0.2906842988773395,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Equal logit mean,AUC,0.9784799059048849,0.9744538983377223,0.9822184042342803,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Equal logit mean,AUPRC,0.9798885306911467,0.9761134054603295,0.9834114520128995,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Equal logit mean,ACC,0.9239380968060587,0.914389199868291,0.9334869937438262,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Equal logit mean,F1,0.9220910623946037,0.9119258422488788,0.9319223399137937,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Equal logit mean,MCC,0.8483541725359032,0.8291856934956829,0.8671928747466706,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Equal logit mean,Brier,0.065781203218783,0.05778024874001317,0.0737204195348313,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Equal logit mean,LogLoss,0.3248162346205713,0.27967902057162597,0.3734051333662932,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Learned convex probability mean,AUC,0.9772924408175728,0.9730032110998927,0.9812487856456374,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Learned convex probability mean,AUPRC,0.9788439608640872,0.9749431192196247,0.9825958274484673,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Learned convex probability mean,ACC,0.9239380968060587,0.9147184721764899,0.9331577214356273,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Learned convex probability mean,F1,0.9233830845771144,0.9141801460049233,0.9328270199100159,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Learned convex probability mean,MCC,0.8478700137355099,0.8294514871429098,0.8663474792082156,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Learned convex probability mean,Brier,0.059940300567630875,0.053328564963529265,0.06671591278843451,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Learned convex probability mean,LogLoss,0.2446403140455489,0.21077809676525222,0.28058527718788495,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Nested logistic fusion,AUC,0.981489769931892,0.9778154589045136,0.9847912308001902,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Nested logistic fusion,AUPRC,0.9820162227449378,0.9784914239114965,0.9852564436592818,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Nested logistic fusion,ACC,0.9242673691142574,0.9150477444846888,0.9334869937438262,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Nested logistic fusion,F1,0.9238914626075446,0.9146622734761121,0.9332007449872605,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Nested logistic fusion,MCC,0.8485342500572912,0.8301061508743207,0.867008150496628,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Nested logistic fusion,Brier,0.05398247403092008,0.048293317141583324,0.05992329461696521,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Nested logistic fusion,LogLoss,0.17737650861150042,0.16075572449902098,0.19506285407667,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Feature concatenation LR,AUC,0.9821914932742116,0.9786664394089217,0.9854362156034128,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Feature concatenation LR,AUPRC,0.9827841703170052,0.9793528251234861,0.9859284632124359,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Feature concatenation LR,ACC,0.9295357260454395,0.9208017780704643,0.9384260783668094,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Feature concatenation LR,F1,0.9296515450361604,0.9210521617269014,0.9384420648536711,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Feature concatenation LR,MCC,0.859187177069074,0.84182611115473,0.8769186339079299,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Feature concatenation LR,Brier,0.055578790163766746,0.048946985379592904,0.06246307179346565,2500,peptide,class-stratified percentile
+whole-pool 60% identity / 80% reciprocal-coverage cluster-disjoint OOF,Feature concatenation LR,LogLoss,0.21382251769721647,0.18507119478539094,0.24442280409283418,2500,peptide,class-stratified percentile

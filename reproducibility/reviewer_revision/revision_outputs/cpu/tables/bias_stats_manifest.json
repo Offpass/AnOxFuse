@@ -1,0 +1,13 @@
+{
+  "module": "anox_revision_bias_stats",
+  "seed": 70877,
+  "matching_repetitions": 2500,
+  "bootstrap_repetitions": 2500,
+  "shuffle_repetitions": 10,
+  "main_model_name": "AnOxFuse",
+  "development_n": 2735,
+  "test_n": 302,
+  "published_baseline_policy": "Frozen predictions are authoritative; all stricter analyses are reported separately as sensitivity analyses.",
+  "gpu_required": false,
+  "gpu_boundary": "A GPU is needed only to embed new sequences, such as expanded shuffles or uncached external peptides."
+}

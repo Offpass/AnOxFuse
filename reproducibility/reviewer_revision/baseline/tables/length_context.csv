@@ -1,0 +1,11 @@
+evaluation,stratum,n,positive_rate,AUC
+Similarity-grouped development OOF,2–5 aa,720,0.9833333333333333,0.9876412429378532
+Similarity-grouped development OOF,6–8 aa,471,0.7197452229299363,0.9676633592562797
+Similarity-grouped development OOF,9–11 aa,554,0.33935018050541516,0.9575194744797116
+Similarity-grouped development OOF,12–15 aa,522,0.18773946360153257,0.9242635733538698
+Similarity-grouped development OOF,16–20 aa,468,0.05555555555555555,0.9725896275670031
+Released independent test,2–5 aa,78,1.0,
+Released independent test,6–8 aa,47,0.6808510638297872,0.9500000000000001
+Released independent test,9–11 aa,55,0.32727272727272727,0.987987987987988
+Released independent test,12–15 aa,61,0.21311475409836064,0.9278846153846153
+Released independent test,16–20 aa,61,0.14754098360655737,0.9487179487179487

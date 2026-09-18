@@ -1,0 +1,13 @@
+evaluation,metric,estimate,ci_low,ci_high,bootstrap_reps,resampling
+Similarity-grouped development OOF,Brier,0.04842666613144634,0.04292740138414059,0.05416486212837714,2500,class-stratified bootstrap
+Similarity-grouped development OOF,LogLoss,0.16057601196319896,0.14337804015654523,0.17849433386232813,2500,class-stratified bootstrap
+Similarity-grouped development OOF,ECE_equal_width_10,0.009040622283724131,0.008135944376398696,0.02015921691421972,2500,class-stratified bootstrap
+Similarity-grouped development OOF,ECE_equal_frequency_10,0.007542676427877159,0.005474691511776333,0.017089625618413005,2500,class-stratified bootstrap
+Similarity-grouped development OOF,Calibration_intercept,0.04135925470080336,-0.12034210594920033,0.20564828008970454,2500,class-stratified bootstrap
+Similarity-grouped development OOF,Calibration_slope,1.0157374609228003,0.9477565204223447,1.1053030489872102,2500,class-stratified bootstrap
+Released independent test,Brier,0.04914230916632188,0.03146139619740336,0.06839879205530276,2500,class-stratified bootstrap
+Released independent test,LogLoss,0.16980167054760278,0.11446315120117811,0.23597629217006477,2500,class-stratified bootstrap
+Released independent test,ECE_equal_width_10,0.023399258835355524,0.02047751048762193,0.0567903324438387,2500,class-stratified bootstrap
+Released independent test,ECE_equal_frequency_10,0.020585908673526138,0.012946560701012546,0.049345469331456976,2500,class-stratified bootstrap
+Released independent test,Calibration_intercept,-0.30400185540967234,-0.8669859623351576,0.18669405546607015,2500,class-stratified bootstrap
+Released independent test,Calibration_slope,0.9217843423565993,0.7635052014913527,1.22837106460996,2500,class-stratified bootstrap
