@@ -749,15 +749,70 @@ def create_gpu_figures(shuffle_summary, external_metrics):
             ]
         )
     ].copy()
-    labels = [f"{row.dataset}\n{row.protocol}\n{row.model}" for row in subset.itertuples()]
-    fig, ax = plt.subplots(figsize=(10, max(5.5, 0.32 * len(subset))))
-    order = np.argsort(subset.AUC.to_numpy())
-    ax.barh(np.asarray(labels)[order], subset.AUC.to_numpy()[order], color="#4c78a8")
-    ax.set_xlim(max(0.5, float(subset.AUC.min() - 0.08)), 1.0)
-    ax.set_xlabel("External-test ROC-AUC")
-    ax.set_title("External evaluation before and after sequence-similarity filtering")
-    ax.grid(axis="x", alpha=0.2)
-    fig.tight_layout()
+    model_order = [
+        "Cross-fitted logistic fusion",
+        "AAC plus DPC plus length RF",
+        "Molecular ECFP4 branch",
+        "Contextual peptide-adapted ESM-2 branch",
+    ]
+    model_labels = [
+        "AnOxFuse fusion",
+        "AAC + DPC + length RF",
+        "Molecular ECFP4 branch",
+        "Contextual ESM-2 branch",
+    ]
+    protocols = ["exact_overlap_only", "identity60_coverage80"]
+    protocol_labels = ["Exact overlap only", "Strict similarity filter"]
+    colors = ["#4c78a8", "#f28e2b"]
+    y = np.arange(len(model_order), dtype=float)
+    bar_height = 0.32
+
+    fig, axes = plt.subplots(1, 2, figsize=(12.4, 4.9), sharex=True, sharey=True)
+    for ax, dataset_name in zip(axes, ["AOPP", "AnOxPP"]):
+        dataset = subset[subset.dataset == dataset_name]
+        pivot = dataset.pivot(index="model", columns="protocol", values="AUC").reindex(model_order)
+        for protocol_index, (protocol, label, color) in enumerate(
+            zip(protocols, protocol_labels, colors)
+        ):
+            values = pivot[protocol].to_numpy(dtype=float)
+            offsets = y + (protocol_index - 0.5) * bar_height
+            bars = ax.barh(
+                offsets,
+                values,
+                height=bar_height,
+                color=color,
+                label=label,
+            )
+            ax.bar_label(bars, fmt="%.3f", padding=3, fontsize=8.5)
+        ax.set_title(dataset_name, fontweight="bold")
+        ax.set_xlabel("External-test ROC-AUC")
+        ax.set_xlim(0.69, 1.01)
+        ax.set_xticks(np.arange(0.70, 1.01, 0.05))
+        ax.set_yticks(y, labels=model_labels)
+        ax.grid(axis="x", alpha=0.2)
+        ax.set_axisbelow(True)
+
+    axes[0].invert_yaxis()
+
+    handles, legend_labels = axes[0].get_legend_handles_labels()
+    fig.legend(
+        handles,
+        legend_labels,
+        loc="upper center",
+        bbox_to_anchor=(0.5, 0.89),
+        ncol=2,
+        frameon=False,
+    )
+    fig.suptitle("External ROC-AUC under sequence-similarity filtering", fontsize=16, y=0.98)
+    fig.text(
+        0.5,
+        0.015,
+        "Strict filter removes training peptides with identity >=60% and coverage >=80% of both sequences.",
+        ha="center",
+        fontsize=9,
+        color="#4d4d4d",
+    )
+    fig.tight_layout(rect=(0.02, 0.07, 0.99, 0.84), w_pad=1.8)
     fig.savefig(FIGURE_DIR / "external_similarity_protocol_auc.png", dpi=300, bbox_inches="tight")
     plt.close(fig)
 
