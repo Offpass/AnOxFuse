@@ -1,6 +1,13 @@
-# Release artifacts
+# Trained classifiers
 
-The three Joblib files are a release refit of the final classifiers using the frozen published ECFP4 features, peptide-adapted ESM-2 mean-plus-maximum features, development labels, and out-of-fold branch probabilities. They are not claimed to be byte-identical copies of the historical in-memory estimators.
+The three Joblib files contain the molecular, sequence and fusion classifiers used by `predict.py`. They were refitted from the original feature matrices and out-of-fold branch predictions; they are not the original in-memory estimators.
 
-`artifact_manifest.json` records the seed, feature definitions, encoder revision, dependency versions, file hashes, source hashes, and validation tolerance. `released_test_refit_predictions.csv` shows the frozen and refitted probabilities row by row. Run `python scripts/validate_release.py` from the repository root to verify integrity and reproduce the released-test metrics.
+The refit reproduces the independent-test ROC-AUC, AUPRC, MCC and every class prediction. Individual probabilities differ by at most `3.824e-05` from the original run. Both sets of probabilities are in [released_test_refit_predictions.csv](released_test_refit_predictions.csv).
 
+[artifact_manifest.json](artifact_manifest.json) records the feature definitions, encoder revision, package versions and file hashes. From the repository root:
+
+```bash
+python scripts/validate_release.py
+```
+
+To rebuild the classifiers from the cached features, run `python scripts/rebuild_release_artifacts.py`.
