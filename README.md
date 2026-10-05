@@ -10,6 +10,8 @@ AnOxFuse predicts antioxidant activity from peptide sequences. It combines molec
 
 The molecular branch uses 2,048-dimensional ECFP4 count fingerprints and LightGBM. The sequence branch uses frozen embeddings from [peptide-adapted ESM-2](https://huggingface.co/jiahuizhang/esm-150m-peptide-fine-tune), mean and maximum pooling, and logistic regression. A second logistic regression combines the two branch logits, trained on out-of-fold predictions.
 
+The complete reviewer-facing configuration, experimental settings and supporting paths are collected in [`implementation_details/`](implementation_details/).
+
 ## Configuration, implementation and experimental settings
 
 | Section | Component | Configuration or implementation detail |
